@@ -1,0 +1,594 @@
+.container {
+    width: 1440px;
+    height: 900px;
+    background: #ffffff;
+}
+
+.content {
+    width: 680px;
+    height: 720px;
+}
+
+
+h3{
+    position: absolute;
+    height: 28px;
+    left: 140px;
+    top: 40px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+}
+
+h1{
+    position: absolute;
+    width: 680px;
+    height: 44px;
+    left: 140px;
+    top: 146px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 44px;
+    color: #333333;
+}
+
+h2{
+    position: absolute;
+    width: 315px;
+    height: 44px;
+    left: 140px;
+    top: 190px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 44px;
+    color: #333333;
+}
+
+.radio_btn{
+    position: absolute;
+    left: 140px;
+    top: 280px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.radio_checked{
+    position: absolute;
+    left: 145px;
+    top: 285px;
+    visibility: hidden;
+    width: 10px;
+    height: 10px;
+    background: #333333;
+    border-radius: 50%;
+
+    &:checked{
+        visibility: visible;
+    }
+}
+
+
+
+.radio_btn2{
+    position: absolute;
+    left: 140px;
+    top: 316px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.radio_checked2{
+    position: absolute;
+    left: 145px;
+    top: 321px;
+    visibility: hidden;
+    width: 10px;
+    height: 10px;
+    background: #333333;
+    border-radius: 50%;
+}
+
+.radio_btn3{
+    position: absolute;
+    left: 140px;
+    top: 352px;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 50%;
+}
+
+.radio_checked3{
+    position: absolute;
+    left: 145px;
+    top: 357px;
+    visibility: hidden;
+    width: 10px;
+    height: 10px;
+    background: #333333;
+    border-radius: 50%;
+}
+
+.random {
+    position: absolute;
+        width: 68px;
+        height: 26px;
+        left: 175px;
+        top: 277px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 26px;
+        color: #333333;
+}
+
+.from_cat {
+    position: absolute;
+    width: 131px;
+    height: 26px;
+    left: 175px;
+    top: 313px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.search {
+    position: absolute;
+    width: 56px;
+    height: 26px;
+    left: 175px;
+    top: 349px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333333;
+}
+
+.input {
+    position: absolute;
+    width: 680px;
+    height: 42px;
+    left: 140px;
+    top: 395px;
+    border: 2px solid #333333;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+::placeholder {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    color: #ABABAB;
+}
+
+.button {
+    position: absolute;
+    width: 152px;
+    height: 42px;
+    left: 140px;
+    top: 457px;
+    background: linear-gradient(92.01deg, #8EA7FF 0%, #7291FF 100%);
+    border-radius: 10px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    border: none;
+    color: #FFFFFF;
+}
+
+.jokes {
+    position: relative;
+    width: 680px;
+    height: 225px;
+    left: 140px;
+    top: 539px;
+    background: #F8F8F8;
+    border-radius: 20px;
+     
+        .heart {
+            position: absolute;
+            left: 620px;
+            top: 40px;
+            
+            #heart{
+                color: #FF6767;
+            }
+        }
+
+        .message {
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 40px;
+            top: 67px;
+        }
+        #message {
+            font-size: 40px;
+        }
+
+        .link {
+            position: absolute;
+            left: 100px;
+            top: 67px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 14px;
+            color: #ABABAB;
+
+            a{
+                color: lightskyblue;
+            }
+        }
+
+        .joke_itself{
+            position: absolute;
+            left: 100px;
+            top: 86px;
+            right: 40px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 26px;
+            color: #333333;
+        }
+
+        .category {
+            position: absolute;
+            left: 533px;
+            top: 161px;
+            width: 107px;
+            height: 24px;
+            background: #FFFFFF;
+            border-radius: 6px;
+        }
+        
+        .category_name {
+            position: absolute;
+            width: 67px;
+            height: 12px;
+            left: 553px;
+            top: 167px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 14px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #333333;
+        }
+
+        .info {
+            position: absolute;
+            left: 100px;
+            top: 166px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 10px;
+            line-height: 14px;
+            color: #ABABAB;
+        }
+}
+
+
+.favourite {
+    position: absolute;
+    width: 480px;
+    height: 900px;
+    left: 960px;
+    top: 0px;
+    background: #F8F8F8;
+
+    .favtxt {
+        position: absolute;
+        width: 84px;
+        height: 28px;
+        left: 40px;
+        top: 40px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 28px;
+        color: #ABABAB;
+    }
+}
+
+.favourite_jokes {
+    position: relative;
+    width: 400px;
+    height: 180px;
+    left: 40px;
+    top: 88px;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+
+    .fav_message {
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        left: 20px;
+        top: 47px;
+        background: #F8F8F8;
+
+        #fav_message {
+            font-size: 40px;
+        }
+    }
+
+    .fav_heart {
+        position: absolute;
+        left: 360px;
+        top: 20px;
+
+        #fav_heart {
+            color: #FF6767;
+        }
+    }
+
+    .fav_link{
+        position: absolute;
+        width: 145px;
+        height: 14px;
+        left: 80px;
+        top: 47px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 10px;
+        line-height: 14px;
+        color: #ABABAB;
+
+        a{
+            color: lightblue;
+        }
+    }
+
+    .fav_joke_itself{
+        position: absolute;
+        width: 300px;
+        height: 60px;
+        left: 80px;
+        top: 66px;
+        right: 20px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+    }
+
+    .fav_info{
+        position: absolute;
+        width: 128px;
+        height: 14px;
+        left: 80px;
+        top: 146px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        color: #ABABAB;
+    }
+
+}
+
+
+@media screen and (max-width: 768px) {
+    
+  }
+// .container {
+//     position: relative;
+//     width: 1440px;
+//     height: 900px;
+//     background: #FFFFFF;
+// }
+
+// .group19{
+//     position: absolute;
+//     width: 680px;
+//     height: 720px;
+//     left: 140px;
+//     top: 40px;
+// }
+
+// .group17{
+//     position: absolute;
+//     width: 680px;
+//     height: 614px;
+//     left: 140px;
+//     top: 146px;
+// }
+
+// .group15{
+//     position: absolute;
+//     width: 680px;
+//     height: 349px;
+//     left: 140px;
+//     top: 146px;
+// }
+
+// .group16 {
+//     position: absolute;
+//     width: 680px;
+//     height: 225px;
+//     left: 140px;
+//     top: 535px;
+// }
+
+// .group7 {
+//     position: absolute;
+//     width: 103px;
+//     height: 26px;
+//     left: 175px;
+//     top: 277px;
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     line-height: 26px;
+
+//     /* identical to box height, or 144% */
+
+//     color: #333333;
+// }
+
+// .group6 {
+//     position: absolute;
+//     width: 131px;
+//     height: 26px;
+//     left: 175px;
+//     top: 313px;
+
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: normal;
+//     font-size: 18px;
+//     line-height: 26px;
+// }
+
+// h3 {
+//     // position: absolute;
+//     // width: 87px;
+//     // height: 28px;
+//     // left: 140px;
+//     // top: 40px;
+
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 20px;
+//     line-height: 28px;
+
+//     /* identical to box height, or 140% */
+
+//     color: #333333;
+// }
+
+// h1{
+    
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: bold;
+//     font-size: 32px;
+//     line-height: 44px;
+
+//     /* identical to box height, or 137% */
+
+//     color: #333333;
+// }
+
+// h2{
+//     font-family: Roboto;
+//     font-style: normal;
+//     font-weight: 500;
+//     font-size: 24px;
+//     line-height: 44px;
+
+//     /* identical to box height, or 183% */
+
+//     color: #333333;
+// }
+
+// .radio_btn{
+//     position: absolute;
+//     left: 140px;
+//     top: 280px;
+//     width: 20px;
+//     height: 20px;
+//     border: 2px solid #ABABAB;
+//     box-sizing: border-box;
+//     border-radius: 50%;
+// }
+
+// .radio_cheked{
+//     position: absolute;
+//     left: 145px;
+//     top: 285px;
+//     visibility: hidden;
+//     width: 10px;
+//     height: 10px;
+//     background: #333333;
+//     border-radius: 50%;
+// }
+
+// .radio_btn2{
+//     position: absolute;
+//     left: 140px;
+//     top: 316px;
+//     width: 20px;
+//     height: 20px;
+//     border: 2px solid #ABABAB;
+//     box-sizing: border-box;
+//     border-radius: 50%;
+// }
+
+// .radio_cheked2{
+//     position: absolute;
+//     left: 145px;
+//     top: 321px;
+//     visibility: hidden;
+//     width: 10px;
+//     height: 10px;
+//     background: #333333;
+//     border-radius: 50%;
+// }
+
+// .radio_btn3{
+//     position: absolute;
+//     left: 140px;
+//     top: 280px;
+//     width: 20px;
+//     height: 20px;
+//     border: 2px solid #ABABAB;
+//     box-sizing: border-box;
+//     border-radius: 50%;
+// }
+
+// .radio_cheked3{
+//     position: absolute;
+//     left: 145px;
+//     top: 285px;
+//     visibility: hidden;
+//     width: 10px;
+//     height: 10px;
+//     background: #333333;
+//     border-radius: 50%;
+// }
+
+
